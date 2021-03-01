@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router';
 
 function CartPage(props) {
-
     const [products, setproducts] = useState(props.data);
-
 
     useEffect(() => {
         setproducts(props.data)
